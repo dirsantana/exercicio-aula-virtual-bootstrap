@@ -4,25 +4,42 @@
     padding: 0;
 }
 
-body {
-    width: 100vw;
-    background-image: url("../img/roomscape2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+.boxOne {
+    overflow: hidden;
+    background-color: #f2f2f2;
 }
 
-main {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.box {
+    margin: 30px;
+    background-color: #25c2d3; 
 }
 
-div {
-    width: 25vw;
-    height: 25vh;
-}
-
-div h1, h2, h3 {
-    color: #fff;
+div h1 {
     font-family: 'Permanent Marker', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+div img {
+    margin: 20px;
+    width: 300px;
+    
+    /* float: left; */
+}
+
+div.formulario {
+    /* float: right; */
+    padding: 20px;
+    background-color: #fff;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.butn {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #25c2d3;
 }
