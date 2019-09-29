@@ -4,42 +4,16 @@
     padding: 0;
 }
 
-.boxOne {
+body {
+    max-width: 100vw;
+}
+
+.mainBox {
+    border: 2px solid #25c3d5;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header {
     overflow: hidden;
-    background-color: #f2f2f2;
-}
-
-.box {
-    margin: 30px;
-    background-color: #25c2d3; 
-}
-
-div h1 {
-    font-family: 'Permanent Marker', sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-div img {
-    margin: 20px;
-    width: 300px;
-    
-    /* float: left; */
-}
-
-div.formulario {
-    /* float: right; */
-    padding: 20px;
-    background-color: #fff;
-}
-
-input {
-    margin-top: 10px;
-}
-
-.butn {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #25c2d3;
 }
